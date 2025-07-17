@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# 💠 mxb
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**mxb** is a modern web project built with **React 19** and styled using **Bootstrap 5**, featuring internationalization, animations, and a smooth product slider. It delivers a responsive and elegant user interface for showcasing brand products effectively.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔧 Technologies Used
 
-### `npm start`
+| Library / Tool                       | Purpose                          |
+| ------------------------------------ | -------------------------------- |
+| **React 19**                         | UI development framework         |
+| **Bootstrap 5**                      | Responsive design and layout     |
+| **Framer Motion**                    | Smooth animations                |
+| **Swiper**                           | Interactive product sliders      |
+| **i18next + react-i18next**          | Multi-language support           |
+| **i18next-http-backend**             | Load translation files from JSON |
+| **i18next-browser-languagedetector** | Auto-detect user language        |
+| **react-icons**                      | Ready-to-use SVG icons           |
+| **@react-intersection-observer**     | Detect elements on scroll        |
+| **ajv + ajv-keywords**               | Data validation                  |
+| **react-countup**                    | Animated number counters         |
+| **schema-utils**                     | Schema validation helpers        |
+| **web-vitals**                       | Performance monitoring           |
+| **@testing-library/react**           | React component testing          |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Getting Started
 
-### `npm test`
+### 1. Clone the Repository
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/Aya-Farahat/mxb
+cd mxb
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Install Dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 3. Start the Development Server
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The app will be available at `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📁 Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+mxb/
+ ┣ public/
+ ┣ src/
+ ┃ ┣ assets/           ← Images & backgrounds
+ ┃ ┣ components/       ← Reusable UI components
+ ┃ ┣ pages/            ← App pages
+ ┃ ┣ i18n/             ← Translations
+ ┃ ┣ styles/           ← CSS & styling
+ ┃ ┣ App.js
+ ┃ ┗ index.js
+┣ package.json
+┗ .gitignore
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🌍 Internationalization (i18n)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The app supports multiple languages using `i18next`:
 
-### Code Splitting
+- Loads translations via `i18next-http-backend`.
+- Detects user language with `i18next-browser-languagedetector`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🧪 Running Tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm test
+```
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
