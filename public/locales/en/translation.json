@@ -1,0 +1,25 @@
+{
+  "navbar": {
+    "investments": "Investments",
+    "realEstate": "Real Estate",
+    "careers": "Careers",
+    "about": "About",
+    "aboutUs": "About Us",
+    "vision": "Vision"
+  },
+  "hero": {
+    "line1": "CREATING",
+    "line2": "VALUE RESPONSIBILITY",
+    "line3": "INVESTING",
+    "line4with": "WITH",
+    "line4integrity": "INTEGRITY"
+  },
+  "impact": {
+    "title": "MXB Impact By Numbers",
+    "description": "We believe in results you can measure — a reflection of our commitment to smart, sustainable investing across diverse markets.",
+    "stat1": "Investing in equities and funds.",
+    "stat2": "Area of real estate projects.",
+    "stat3": "Area of infrastructure projects.",
+    "stat4": "Real estate & infrastructure projects."
+  }
+}
