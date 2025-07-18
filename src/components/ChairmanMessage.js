@@ -67,7 +67,7 @@ const ChairmanMessage = () => {
           >
             Our goal is to create <strong>long-term value</strong> for our
             shareholders by making <strong>sustainable investments</strong> in
-            diverse asset classes while adhering to{" "}
+            diverse asset classes while adhering to
             <strong>Islamic principles</strong>. We believe that our success is
             not only measured by financial gains but also by the positive impact
             we make on the communities we operate in. At MXB, we are committed

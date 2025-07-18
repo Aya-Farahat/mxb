@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import { useTranslation } from "react-i18next";
 import "./App.css";
 import HomePage from "./components/HomePage";
 import ImpactByNumbers from "./components/ImpactByNumbers";

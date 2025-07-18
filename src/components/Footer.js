@@ -20,7 +20,7 @@ const Footer = () => {
       <div
         className="position-absolute w-100 h-100 top-0 start-0"
         style={{
-          backgroundColor: "rgba(28, 65, 114, 0.69)",
+          backgroundColor: "#1c4172b0",
           backdropFilter: "blur(2px)",
           WebkitBackdropFilter: "blur(2px)",
           zIndex: 1,

@@ -1,9 +1,6 @@
-import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 
 const DiscoverMore = () => {
-  const { t } = useTranslation();
-
   return (
     <div
       style={{
@@ -34,7 +31,7 @@ const DiscoverMore = () => {
                 letterSpacing: "6px",
               }}
             >
-              {t("discover.title", "Discover More")}
+              Discover More
             </h2>
 
             <h3
@@ -48,7 +45,7 @@ const DiscoverMore = () => {
                 color: "#193050",
               }}
             >
-              {t("discover.subtitle", "About Our Projects")}
+              About Our Projects
             </h3>
 
             <p
@@ -60,14 +57,12 @@ const DiscoverMore = () => {
                 maxWidth: "450px",
               }}
             >
-              {t(
-                "discover.description",
-                "A forward-thinking developments that embody Saudi Vision 2030 – blending sustainability, innovation, and architectural excellence."
-              )}
+              A forward-thinking developments that embody Saudi Vision 2030 –
+              blending sustainability, innovation, and architectural excellence.
             </p>
 
             <a
-              href="#"
+              href="/"
               className="btn btn-link px-0"
               style={{
                 color: "#3c6e9e",
@@ -75,7 +70,7 @@ const DiscoverMore = () => {
                 fontSize: "1.1rem",
               }}
             >
-              {t("discover.seeMore", "See more")}
+              See more
               <span className="ms-2">
                 <svg width="20" height="20" fill="#3c6e9e" viewBox="0 0 20 20">
                   <circle cx="10" cy="10" r="10" opacity="0.2" />
@@ -93,13 +88,13 @@ const DiscoverMore = () => {
 
             <div
               className="position-absolute d-none d-lg-block"
-              style={{ left: "-100px", bottom: "0px" }}
+              style={{ left: "-140px", bottom: "70px" }}
             >
               <img
                 src="/images/discsub.png"
                 alt="discover img"
                 className=" img-fluid mt-4"
-                style={{ width: "500px", height: "auto", objectFit: "cover" }}
+                style={{ width: "500px", height: "auto" }}
               />
             </div>
           </motion.div>
